@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bat & Ball Galaxy | بیٹ اینڈ بال گلیکسی</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+      background-color: #f5f6f7;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+    header {
+      background-color: #1877f2;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 28px;
+      font-weight: bold;
+      border-bottom: 4px solid #145db2;
+    }
+    nav {
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #1877f2;
+      font-weight: 600;
+    }
+    .container {
+      width: 95%;
+      max-width: 900px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    }
+    h2 {
+      color: #1877f2;
+      border-bottom: 2px solid #1877f2;
+      padding-bottom: 6px;
+      margin-bottom: 10px;
+    }
+    .post {
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+    }
+    .post:last-child {
+      border-bottom: none;
+    }
+    .en {
+      direction: ltr;
+      text-align: left;
+      color: #333;
+    }
+    footer {
+      text-align: center;
+      padding: 12px;
+      background: #1877f2;
+      color: white;
+      font-size: 14px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🏏 Bat & Ball Galaxy | بیٹ اینڈ بال گلیکسی 📰</header>
+
+  <nav>
+    <a href="#">🏠 Home</a>
+    <a href="#">📢 News</a>
+    <a href="#">📊 Live Scores</a>
+    <a href="#">📷 Gallery</a>
+    <a href="#">📱 Contact</a>
+  </nav>
+
+  <div class="container">
+    <h2>📰 اردو خبریں</h2>
+
+    <div class="post">
+      <h3>پاکستان نے جنوبی افریقہ کو 93 رنز سے شکست دی!</h3>
+      <p>عامر جمال کی شاندار باؤلنگ، 8 وکٹیں لے کر پاکستان کو تاریخی فتح دلائی۔</p>
+    </div>
+
+    <div class="post">
+      <h3>اگلا میچ: پاکستان بمقابلہ آسٹریلیا (کراچی، 22 اکتوبر)</h3>
+      <p>نئی سیریز، نیا جوش — ٹیم گرین ایک بار پھر میدان میں۔</p>
+    </div>
+
+    <hr>
+
+    <h2>🗞️ English News</h2>
+
+    <div class="post en">
+      <h3>Pakistan beat South Africa by 93 runs!</h3>
+      <p>Aamir Jamal starred with 8 wickets, leading Pakistan to a historic Test win in Karachi.</p>
+    </div>
+
+    <div class="post en">
+      <h3>Next Match: Pakistan vs Australia, October 22</h3>
+      <p>Team Green will face Australia in Karachi — excitement building up for the new series!</p>
+    </div>
+
+    <div class="post en">
+      <h3>🔴 Live Scores (Coming Soon)</h3>
+      <p>Stay tuned for live match updates, stats, and breaking news from around the cricket world.</p>
+    </div>
+  </div>
+
+  <footer>© 2025 Bat & Ball Galaxy | Developed by Haji 💚</footer>
+
+</body>
+</html>
