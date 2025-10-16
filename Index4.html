@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🏏 Bat & Ball Galaxy | کرکٹ کی دنیا</title>
+  <style>
+    body {
+      font-family: 'Noto Naskh Arabic', Arial, sans-serif;
+      background-color: #e9ebee;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #004aad;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 24px;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .score-bar {
+      background: #ffd700;
+      color: #000;
+      text-align: center;
+      font-size: 18px;
+      padding: 10px;
+      font-weight: bold;
+      animation: blink 2s infinite;
+    }
+    @keyframes blink {
+      50% { background: #ffea00; }
+    }
+    .feed {
+      max-width: 600px;
+      margin: 20px auto;
+    }
+    .post {
+      background: #fff;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .post h2 {
+      color: #004aad;
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    .post p {
+      color: #333;
+      font-size: 16px;
+    }
+    .lang {
+      text-align: left;
+      font-style: italic;
+      color: gray;
+      font-size: 13px;
+    }
+    footer {
+      text-align: center;
+      background: #004aad;
+      color: white;
+      padding: 10px;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  </style>
+  <script>
+    // یہ ڈیٹا بعد میں API سے خود اپڈیٹ ہو گا
+    const scores = [
+      "🏏 Pakistan vs South Africa — Pakistan won by 93 runs!",
+      "🏆 Karachi Kings beat Lahore Qalandars by 5 wickets!",
+      "🔥 Babar Azam hits 100* in PSL Final!"
+    ];
+
+    let i = 0;
+    function updateScore() {
+      document.getElementById('scoreText').textContent = scores[i];
+      i = (i + 1) % scores.length;
+    }
+    setInterval(updateScore, 4000);
+    window.onload = updateScore;
+  </script>
+</head>
+<body>
+  <header>🏏 Bat & Ball Galaxy | کرکٹ کی دنیا</header>
+
+  <div class="score-bar" id="scoreText">Loading live scores...</div>
+
+  <div class="feed">
+    <div class="post">
+      <h2>فخر زمان کی شاندار سنچری!</h2>
+      <p>پاکستان کے اوپنر فخر زمان نے جنوبی افریقہ کے خلاف 124 رنز کی شاندار اننگ کھیلی۔</p>
+      <div class="lang">اردو خبر</div>
+    </div>
+
+    <div class="post">
+      <h2>Babar Azam’s Brilliant Knock!</h2>
+      <p>Babar led Pakistan to a remarkable Test win against South Africa with superb captaincy.</p>
+      <div class="lang">English News</div>
+    </div>
+
+    <div class="post">
+      <h2>Breaking: Shaheen Afridi takes 5 wickets!</h2>
+      <p>Shaheen Afridi bowled a fiery spell to dismiss South Africa for 183 runs.</p>
+      <div class="lang">English Update</div>
+    </div>
+  </div>
+
+  <footer>© 2025 Bat & Ball Galaxy | All Rights Reserved</footer>
+</body>
+</html>
