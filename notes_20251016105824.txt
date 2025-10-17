@@ -122,3 +122,8 @@ index.html
 
 </body>
 </html>
+<section id="live-score" style="text-align:center; margin:20px;">
+  <h2>🏏 Live Score</h2>
+  <div id="score-container">Loading live scores...</div>
+</section>
+<script src="score.js"></script>
